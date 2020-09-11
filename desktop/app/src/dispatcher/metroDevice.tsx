@@ -15,7 +15,7 @@ import {ArchivedDevice} from 'flipper';
 import http from 'http';
 import {addErrorNotification} from '../reducers/notifications';
 
-const METRO_PORT = 8081;
+const METRO_PORT = 8090;
 const METRO_HOST = 'localhost';
 const METRO_URL = `http://${METRO_HOST}:${METRO_PORT}`;
 const METRO_LOGS_ENDPOINT = `ws://${METRO_HOST}:${METRO_PORT}/events`;
